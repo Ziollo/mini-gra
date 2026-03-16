@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt Gry - Kamień, Papier, Nożyce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Kamień, Papier, Nożyce</h1>
+    </header>
+
+    <main>
+        <div class="game-container">
+            <div id="start-screen">
+                <button id="startbtn" class="start">Rozpocznij grę</button>
+            </div>
+
+            <div class="items" id="items-container">
+                <button class="itm" id="rockbtn">
+                    <img src="hand-rock-solid.svg" alt="Kamień">
+                </button>
+                <button class="itm" id="paperbtn">
+                    <img src="hand-paper-solid.svg" alt="Papier">
+                </button>
+                <button class="itm" id="scissorsbtn">
+                    <img src="hand-scissors-solid.svg" alt="Nożyce">
+                </button>
+            </div>
+
+            <div class="scoreboard">
+                <div class="score-block">
+                    <h3>Gracz</h3>
+                    <span id="player-score" class="score">0</span>
+                    <div id="player-choice-display" class="choice-display"></div>
+                </div>
+
+                <div class="vs-divider">VS</div>
+
+                <div class="score-block">
+                    <h3>Komputer</h3>
+                    <span id="computer-score" class="score">0</span>
+                    <div id="computer-choice-display" class="choice-display"></div>
+                </div>
+            </div>
+
+            <h2 id="result-message"></h2>
+            <button id="resetbtn" class="stop">Resetuj Grę</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Kacper Ziółek / Wszystkie prawa zastrzeżone</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

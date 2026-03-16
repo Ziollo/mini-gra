@@ -8,4 +8,4 @@ Prosty kalkulator stworzony przy użyciu **HTML, CSS oraz JavaScript**, pozwalaj
 * **Interaktywność:** obsługa zdarzeń w czasie rzeczywistym dzięki JavaScript.
 
 ## Cel projektu
-Projekt został zrealizowany w celu nauki logiki programowania oraz tworzenia dynamicznych interfejsów użytkownika. Skupia się na praktycznym wykorzystaniu manipulacji drzewem DOM.
+Projekt został zrealizowany w celu nauki logiki programowania oraz tworzenia dynamicznych interfejsów użytkownika.

@@ -16,7 +16,7 @@ Projekt skupia się na stworzeniu interaktywnego, czystego interfejsu użytkowni
 ## 📸 Wygląd aplikacji 
 
 | Rozgrywka |
-| :---: | :---: | 
+| :---: | 
 | ![Gra](gra.png) | 
 
 ## 🛠 Technologie
